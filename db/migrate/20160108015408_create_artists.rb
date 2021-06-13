@@ -7,3 +7,12 @@ class CreateArtists < ActiveRecord::Migration
     end
   end
 end
+
+
+=begin
+  class AddAuthorIdToPosts < ActiveRecord::Migration
+  def change
+    add_column :posts, :author_id, :integer
+  end
+end
+=end
